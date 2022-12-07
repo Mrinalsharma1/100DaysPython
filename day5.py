@@ -6,5 +6,5 @@ print(int(a)+int(b))# with the help of data type we can explecitly conver the da
 x=55
 y=1.9
 print(x+y) #implecitly converted without any keyword
-print(type(x+y))
+print(type(x+y))# its will convert to float data type
 
