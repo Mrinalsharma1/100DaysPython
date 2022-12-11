@@ -8,6 +8,6 @@ print(name[0:])#to print all character without giving last index
 print(name[:8])#without giving starting index it's automatic start from 0 index
 print(name[0:len(name)])#it's also print all the character from string
 nm="harry"
-print(nm[-4:-2])
+print(nm[-4:-2]) # first -4 minues with length so it become 1 and last -2 minues with len so it became 3. so final is [1:3] 
 print(nm[1:3])
 

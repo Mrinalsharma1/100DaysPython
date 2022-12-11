@@ -17,3 +17,4 @@ print(name[0]) # to print the char from string
 
 for chara in name: # to print char from string without knowing length
     print(chara)
+
