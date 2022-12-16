@@ -1,9 +1,9 @@
 print("-----------Day14----------")
 #while loop
-# n=int(input("Enter number : "))
-# while (n<=10):
-#     print("value is ",n)
-#     n+=1
+n=int(input("Enter number : "))
+while (n<=10):
+    print("value is ",n)
+    n+=1
     
 n=5
 while(n<10):
