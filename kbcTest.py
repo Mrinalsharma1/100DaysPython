@@ -1,21 +1,22 @@
 question=[
-    ["which language was used in Fb?","react","java","javascript","None","react"],
-    # ["which language was used in whatsApp?","typescript","java","javascript","None","typescript"],
-    # ["which language was used in Twitter?","Angular","java","javascript","None","angular"],
+    ["which language was used in Fb?","react","java","javascript","None"],
+    ["which language was used in whatsApp?","typescript","java","javascript","None"],
+    ["which language was used in Twitter?","Angular","java","javascript","None"],
 ]
-queans=[]
+queans=["react","typescript","angular"]
 userans=[]
-# print(type(userans))
-# a=(question[0])
-# print(a[0])
 for i in question:
     temp=len(i)-1
     for j in range(0,temp):
-        if (j==0):
-            queans.insert(0,j)
-        print(i[j])
-        
-    ans=input("Enter your Answer : ")
-    userans.insert(0,ans)
-print(userans)   
-print(queans)   
+        print(i[j])   
+    a=input("Enter your Answer : ")
+    userans.append(a)
+ans=0
+wrong=0
+print(userans)
+for j in range(0,len(userans)):
+    if(userans[j].casefold()==queans[j]):
+        ans+=1
+    else:
+        wrong+=1
+print(f"correct answer is {ans} and wrong answer is {wrong} ") 
