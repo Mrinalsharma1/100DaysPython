@@ -7,5 +7,5 @@ print(a is b) #it's compare the memory location of both list bcus list is mutabl
 
 a=3
 b=3
-print(a==b)
-print(a is b)
+print(a==b) #it's return true bcus variable is constant
+print(a is b) #it's return true bcus variable memory address is same

@@ -30,4 +30,4 @@ a=lambda x,y:(x+y) #with lamda
 
 sum=reduce((lambda x,y:(x+y)),l) #recucer and lamda in single line
 
-print(reduce((lambda x,y:(x+y)),l))
+print(reduce((lambda x,y:(x+y)),l)) #in one line 
