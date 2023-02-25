@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 url1="https://alphaworldtech.com"
 r=requests.get(url1)
-
+#test purpose
 soup=BeautifulSoup(r.text,'html.parser') #it is used the scrape the data from web
 # print(soup.prettify())
 for heading in soup.find_all('p'): #here we are finding the data from p tag
