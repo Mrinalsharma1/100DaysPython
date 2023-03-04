@@ -18,7 +18,7 @@ import requests
 # fun3()
 
 async def fun1():
-   
+   #here we are downloading images from url
     URL = "https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     response = requests.get(URL)
     open("img1.jpg", "wb").write(response.content)
@@ -48,4 +48,5 @@ async def main():
     # await fun1()
     # await fun2()
     # await fun3()
+    # helllo
 asyncio.run(main())#here we are giveing istruction to this main function to run all the function
