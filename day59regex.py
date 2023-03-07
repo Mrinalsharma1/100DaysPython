@@ -5,6 +5,7 @@ str="rain is strom rain rain"
 def check(val,pos):
     if val=="rain" :
         return pos
+    # helo
     else:
         return 0
 data=str.split(' ')
